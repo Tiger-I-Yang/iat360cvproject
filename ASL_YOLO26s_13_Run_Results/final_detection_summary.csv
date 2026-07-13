@@ -1,0 +1,2 @@
+model,best_run,best_model_path,precision,recall,mAP50,mAP50_95,successful_detection_records,failed_detection_records,number_of_classes,number_of_completed_runs,output_directory
+yolo26s.pt,run_02_imgsz_512,I:\YOLO Train W1\ASL_YOLO26s_13_Run_Results\run_02_imgsz_512\weights\best.pt,0.872314632,0.78748521,0.884565638,0.752034057,166,84,26,13,I:\YOLO Train W1\ASL_YOLO26s_13_Run_Results

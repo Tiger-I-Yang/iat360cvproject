@@ -1,0 +1,2 @@
+best_run,model,precision,recall,mAP50,mAP50_95,imgsz,batch,lr0,optimizer,training_minutes,best_model_path
+run_02_imgsz_512,yolo26s.pt,0.8723146319213786,0.7874852099442896,0.8845656384323265,0.7520340566500026,512,8,0.01,auto,,I:\YOLO Train W1\ASL_YOLO26s_13_Run_Results\run_02_imgsz_512\weights\best.pt

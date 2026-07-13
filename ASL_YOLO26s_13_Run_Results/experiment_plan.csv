@@ -1,0 +1,14 @@
+run_name,changed_parameter,changed_value,epochs,imgsz,batch,lr0,optimizer,patience
+run_00_default,none,default,30,640,8,0.01,auto,10
+run_01_imgsz_416,imgsz,416,30,416,8,0.01,auto,10
+run_02_imgsz_512,imgsz,512,30,512,8,0.01,auto,10
+run_03_imgsz_768,imgsz,768,30,768,8,0.01,auto,10
+run_04_batch_4,batch,4,30,640,4,0.01,auto,10
+run_05_batch_12,batch,12,30,640,12,0.01,auto,10
+run_06_batch_16,batch,16,30,640,16,0.01,auto,10
+run_07_lr0_0.001,lr0,0.001,30,640,8,0.001,auto,10
+run_08_lr0_0.005,lr0,0.005,30,640,8,0.005,auto,10
+run_09_lr0_0.02,lr0,0.02,30,640,8,0.02,auto,10
+run_10_optimizer_SGD,optimizer,SGD,30,640,8,0.01,SGD,10
+run_11_optimizer_Adam,optimizer,Adam,30,640,8,0.01,Adam,10
+run_12_optimizer_AdamW,optimizer,AdamW,30,640,8,0.01,AdamW,10

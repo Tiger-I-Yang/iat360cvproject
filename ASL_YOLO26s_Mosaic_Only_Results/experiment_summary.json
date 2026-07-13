@@ -1,0 +1,33 @@
+{
+  "model": "yolo26s.pt",
+  "number_of_new_runs_planned": 3,
+  "hyperparameter_tested": "mosaic",
+  "tested_values": [
+    0.0,
+    0.5,
+    0.8
+  ],
+  "default_value": 1.0,
+  "default_configuration": {
+    "model": "yolo26s.pt",
+    "epochs": 30,
+    "imgsz": 640,
+    "batch": 8,
+    "lr0": 0.01,
+    "optimizer": "auto",
+    "patience": 10,
+    "device": 0,
+    "workers": 0,
+    "cache": false,
+    "seed": 42,
+    "deterministic": true
+  },
+  "dataset_yaml": "D:\\YOLO Training\\database_structure_final\\config.yaml",
+  "previous_results_directory": "D:\\YOLO Training\\ASL_YOLO26s_13_Run_Results",
+  "output_directory": "D:\\YOLO Training\\ASL_YOLO26s_Mosaic_Only_Results",
+  "number_of_records": 4,
+  "completed_runs": 4,
+  "best_run": "run_09_mosaic_0.8",
+  "best_mosaic": 0.8,
+  "best_mAP50_95": 0.7474601345454618
+}

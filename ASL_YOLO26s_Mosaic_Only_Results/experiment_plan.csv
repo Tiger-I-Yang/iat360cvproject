@@ -1,0 +1,4 @@
+run_index,run_name,changed_parameter,changed_value,epochs,imgsz,batch,lr0,optimizer,mosaic,patience
+7,run_07_mosaic_0.0,mosaic,0.0,30,640,8,0.01,auto,0.0,10
+8,run_08_mosaic_0.5,mosaic,0.5,30,640,8,0.01,auto,0.5,10
+9,run_09_mosaic_0.8,mosaic,0.8,30,640,8,0.01,auto,0.8,10

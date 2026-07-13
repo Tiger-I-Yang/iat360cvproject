@@ -1,0 +1,14 @@
+metric,value
+model,YOLO11s Classification
+number_of_classes,26
+training_images,2184
+validation_images,208
+epochs_requested,50
+image_size,224
+batch_size,64
+gpu,NVIDIA GeForce RTX 4090
+top1_accuracy,0.5336538553237915
+top5_accuracy,0.8509615659713745
+custom_validation_accuracy,0.5336538461538461
+correct_predictions,111
+incorrect_predictions,97
